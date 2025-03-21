@@ -2,11 +2,15 @@ package org.leetcode;
 
 public class SubsequentCheck {
     public static boolean isSubsequence(String s, String t) {
-        char[] s_arr = s.toCharArray();
-        char[] t_arr = t.toCharArray();
-
-        if(t_arr.length >= s_arr.length){
-
+        int i=0,j=0;
+        if(t.length() >= s.length()){
+           while(s.length() > i && t.length() > j){
+               if(s.charAt(i) == t.charAt(j)){
+                   i++;
+               }
+               j++;
+           }
+            return s.length() == i;
         }
         return false;
     }
