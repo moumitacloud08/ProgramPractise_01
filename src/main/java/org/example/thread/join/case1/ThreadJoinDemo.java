@@ -1,4 +1,4 @@
-package org.example.thread.join;
+package org.example.thread.join.case1;
 
 public class ThreadJoinDemo {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package org.example.thread.join;
+package org.example.thread.join.case1;
 
 public class MyThread extends Thread{
     public void run(){
