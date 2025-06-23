@@ -8,9 +8,11 @@ public class InputDataMain1 {
         while (sc.hasNext()) {
             String input = sc.next();
 
-            String[] str = input.split(" ");
+            String[] str = input.split(",");
             boolean subsequence = SubsequentCheck.isSubsequence(str[0], str[1]);
             System.out.println(subsequence);
+
+
         }
     }
 }

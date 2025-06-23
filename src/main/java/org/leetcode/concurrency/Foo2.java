@@ -22,7 +22,6 @@ public class Foo2 {
     public synchronized void second(Runnable printSecond) throws InterruptedException {
         while (!isFirst)
             wait();
-
         printSecond.run();
         isSecond = true;
         notifyAll();
@@ -38,7 +37,6 @@ public class Foo2 {
     public static void main(String[] args) throws InterruptedException {
 
         Foo2 foo = new Foo2();
-
         // Runnable tasks for each print
         Runnable printFirst = new Runnable() {
             @Override
