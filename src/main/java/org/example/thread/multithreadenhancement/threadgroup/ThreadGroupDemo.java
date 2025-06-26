@@ -1,4 +1,4 @@
-package org.example.thread.multithreadenhancement;
+package org.example.thread.multithreadenhancement.threadgroup;
 
 public class ThreadGroupDemo {
 
