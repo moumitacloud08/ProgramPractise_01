@@ -1,4 +1,4 @@
-package org.example.thread.resourcesharing.criticalsection;
+package org.example.thread.resourcesharing.criticalsection.synchronizedmethod;
 
 public class Main {
 
